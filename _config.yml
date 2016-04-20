@@ -1,0 +1,11 @@
+name: Elixir New
+url: http://zhongwencool.github.io/
+description: All about Elixir&Erlang
+
+permalink: :title/
+paginate: 10
+highlighter: pygments
+gems:
+   - jekyll-paginate
+
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
