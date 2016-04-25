@@ -4,8 +4,7 @@ description: All about Elixir&Erlang
 
 permalink: :title/
 paginate: 10
-highlighter: pygments
-gems:
-   - jekyll-paginate
+highlighter: rouge
+gems: [jekyll-paginate]
 
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
