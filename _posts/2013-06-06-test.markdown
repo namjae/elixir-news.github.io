@@ -1,6 +1,0 @@
----
-layout: post
-title:  "France Removes Internet Cut-Off Threat From its Anti-Piracy Law"
-date:   2013-06-05 20:33:11
-external-url: https://github.com/h4cc/awesome-elixir/blob/master/README.md
----
