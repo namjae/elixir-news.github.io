@@ -6,6 +6,7 @@ date:   2016-04-09 00:00:11
 ---
 ## 2016-17
 
+* [Farewell, io:format](http://blog.ikura.co/posts/farewell-io-format.html) - debug it using ‘dbg’ in the Erlang shell. (2016-04-26)
 * [[news] multidimensional arrays in elixir](- http://blog.danielberkompas.com/2016/04/23/multidimensional-arrays-in-elixir.html) -  (2016-04-24)
 * [Expectation  on elixir 1.3]( http://tuvistavie.com/tokyo.ex/#/) -    - Deprecation of imperative assignment
    - with improvements
