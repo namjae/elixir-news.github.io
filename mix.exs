@@ -29,7 +29,9 @@ defmodule News.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [{:tentacat, "~> 0.5.0"},
-     {:timex, "~> 2.1.4"}]
+     {:timex, "~> 2.1.4"},
+     {:exrm, "~> 1.0.3"},
+    ]
   end
 
 end

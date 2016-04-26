@@ -48,7 +48,6 @@ defmodule News.Github do
         text: text,
         url: url,
         date: date,
-        number: issue["number"],
         created_at: issue["created_at"]}
     end)
     |> Enum.sort_by(fn(x) -> x.created_at end)
@@ -69,7 +68,7 @@ defmodule News.Github do
 
   def close_issues(issues) do
     Enum.each(issues, fn(issue) ->
-      Tentacat.Issues.edit(@owner, @repo, issue.number, %{state: "closed"}, @client)
+      Tentacat.Issues.edit(@owner, @repo, issue["number"], %{state: "closed"}, @client)
     end)
   end
 
