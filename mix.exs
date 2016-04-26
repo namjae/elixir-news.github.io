@@ -28,7 +28,7 @@ defmodule News.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    [{:tentacat, "~> 0.5.0"},
+    [{:tentacat, git: "https://github.com/zhongwencool/tentacat.git", branch: "master"},
      {:timex, "~> 2.1.4"},
      {:exrm, "~> 1.0.3"},
     ]

@@ -7,23 +7,23 @@ defmodule News.Github do
   @news_file "_posts/2016-04-09-news.markdown"
 
   def update_news do
-    case find_today_issues do
-      [] -> :ok
-      issues ->
-        new_news = joint_news(issues)
-        file = Tentacat.Contents.find(@owner, @repo, @news_file, @client)
-        content = file["content"] |> :base64.decode
-        new_content = update_content(content, new_news)
-        body =
-          %{sha: file["sha"],
-            path: file["path"],
-            message: "robot commit frist",
-            content: :base64.encode(new_content)
-           }
-        File.write("latest.news.markdown", new_content)
-        upload_file(body)
-        close_issues(issues)
-    end
+    issues = find_today_issues
+
+    issues
+    |> restructuring_issues
+    |> upload_file
+
+    close_issues(issues)
+  end
+
+  def restructuring_issues([]), do: :ok
+  def restructuring_issues(issues) do
+    new_news = joint_news(issues)
+    file = Tentacat.Contents.find(@owner, @repo, @news_file, @client)
+    content = file["content"] |> :base64.decode
+    new_content = update_content(content, new_news)
+    File.write("latest.news.markdown", new_content)
+    %{sha: file["sha"], path: file["path"], message: "robot commit frist", content: :base64.encode(new_content)}
   end
 
   defp update_content(content, new_news) do

@@ -8,14 +8,18 @@ defmodule News.Server do
   end
 
   def init([state]) do
-    timeout = remain_ms(@update_time)
-    {:ok, state, timeout}
+    {:ok, state, remain_ms(@update_time)}
   end
 
   def handle_info(:timeout, state) do
-    News.Github.update_news
-    timeout = remain_ms(@update_time)
-    {:noreply, state + 1, timeout}
+    new_state =
+      try  do
+        News.Github.update_news
+        Timex.DateTime.local
+      catch error ->
+          error
+      end
+    {:noreply, new_state, remain_ms(@update_time)}
   end
 
   def remain_ms(time) do
@@ -24,7 +28,7 @@ defmodule News.Server do
     update_time = Timex.datetime({date, time}, "Asia/Shanghai")
     diff_ms = Timex.diff(update_time, now, :seconds) * 1000
     case Timex.after?(now, update_time) do
-      true -> 
+      true ->
         86400000 - diff_ms
       false ->
         diff_ms
