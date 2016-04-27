@@ -1,5 +1,7 @@
 defmodule News.Github do
 
+  use Timex
+
   @client Tentacat.Client.new(%{access_token: Application.get_env(:news, :github_access_token)})
   @owner "elixir-news"
   @repo "elixir-news.github.io"
@@ -23,7 +25,7 @@ defmodule News.Github do
     content = file["content"] |> :base64.decode
     new_content = update_content(content, new_news)
     File.write("latest.news.markdown", new_content)
-    %{sha: file["sha"], path: file["path"], message: "robot commit frist", content: :base64.encode(new_content)}
+    %{sha: file["sha"], path: file["path"], message: commit_log, content: :base64.encode(new_content)}
   end
 
   defp update_content(content, new_news) do
@@ -75,6 +77,10 @@ defmodule News.Github do
   defp week do
     {year, week} = :calendar.iso_week_number
     "#{year}-#{week}"
+  end
+
+  defp commit_log do
+    Timex.DateTime.now("Asia/Shanghai") |> Timex.format!("%FT%T%:z", :strftime)
   end
 
 end
