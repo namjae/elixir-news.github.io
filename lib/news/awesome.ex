@@ -52,7 +52,7 @@ defmodule News.Github.Awesome do
   end
 
   defp update_content(content) do
-    @header <> String.slice(content, 447..-1)
+    @header <> commit_log <> "\n\n" <> String.slice(content, 447..-1)
   end
 
   defp upload_file(body) do
