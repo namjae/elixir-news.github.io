@@ -16,7 +16,8 @@ defmodule News.Server do
   def handle_info(:timeout, _state) do
     new_state =
       try  do
-        News.Github.update_news
+        News.Github.News.update
+        New.Github.Awesome.update
         {Timex.DateTime.local, :ok, remain_ms(@update_time)}
       catch error ->
           {Timex.DateTime.local, error, remain_ms(@update_time)}

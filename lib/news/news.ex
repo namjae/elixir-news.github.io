@@ -1,4 +1,4 @@
-defmodule News.Github do
+defmodule News.Github.News do
 
   use Timex
 
@@ -8,7 +8,7 @@ defmodule News.Github do
   @header "---\nlayout: post\ntitle:  \"Awesome Elixir\"\ndate:   2016-04-09 00:00:11\n\n---\n## "
   @news_file "_posts/2016-04-09-news.markdown"
 
-  def update_news do
+  def update do
     issues = find_today_issues
 
     issues
