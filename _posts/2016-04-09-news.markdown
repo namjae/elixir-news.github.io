@@ -9,11 +9,7 @@ date:   2016-04-09 00:00:11
 * [On Functional Programming:](https://medium.com/@jlouis666/on-functional-programming-df28cc9078de#.i6osvk1ux) - 
 The (incomplete) feature set of functional programming (2016-04-26)
 * [Farewell, io:format](http://blog.ikura.co/posts/farewell-io-format.html) - debug it using ‘dbg’ in the Erlang shell. (2016-04-26)
-* [[news] multidimensional arrays in elixir](- http://blog.danielberkompas.com/2016/04/23/multidimensional-arrays-in-elixir.html) -  (2016-04-24)
-* [Expectation  on elixir 1.3]( http://tuvistavie.com/tokyo.ex/#/) -    - Deprecation of imperative assignment
-   - with improvements
-   - Date datatypes
-   - Plenty of other stuff (2016-04-24)
+* [multidimensional arrays in elixir](- http://blog.danielberkompas.com/2016/04/23/multidimensional-arrays-in-elixir.html) -  (2016-04-24)
 ## 2016-16
 
 * [Migrating from the elixir-lang-talk mailing list to Elixir Forum](http://elixirforum.com/t/elixir-lang-talk-is-migrating-to-this-forum/358) - The elixir-lang-talk mailing list has reached its limits. It doesn't provide a way to categorize contents, its search is limited, the lack of tools for maintenance makes it hard for us to manage it.  (2016-04-18)
