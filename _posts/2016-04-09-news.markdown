@@ -10,6 +10,7 @@ date:   2016-04-09 00:00:11
 The (incomplete) feature set of functional programming (2016-04-26)
 * [Farewell, io:format](http://blog.ikura.co/posts/farewell-io-format.html) - debug it using ‘dbg’ in the Erlang shell. (2016-04-26)
 * [multidimensional arrays in elixir](- http://blog.danielberkompas.com/2016/04/23/multidimensional-arrays-in-elixir.html) -  (2016-04-24)
+
 ## 2016-16
 
 * [Migrating from the elixir-lang-talk mailing list to Elixir Forum](http://elixirforum.com/t/elixir-lang-talk-is-migrating-to-this-forum/358) - The elixir-lang-talk mailing list has reached its limits. It doesn't provide a way to categorize contents, its search is limited, the lack of tools for maintenance makes it hard for us to manage it.  (2016-04-18)
