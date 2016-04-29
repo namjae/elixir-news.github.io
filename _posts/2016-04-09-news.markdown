@@ -6,6 +6,7 @@ date:   2016-04-09 00:00:11
 ---
 ## 2016-17
 
+* [Scoping Rules in Elixir (and Erlang)](https://github.com/alco/elixir/wiki/Scoping-Rules-in-Elixir-(and-Erlang)) - takes a detailed look at all of the scoping rules for those who want to have a structured understand of Elixir scopes and learn in what ways they differ from Erlang. (2016-04-29)
 * [Elixir RAM and the Template of Doom](http://www.evanmiller.org/elixir-ram-and-the-template-of-doom.html) - 
 Without I/O lists, Elixir is just eager-copying memory like everybody else, and missing out on one of the features that makes the Erlang VM so technically interesting. (2016-04-27)
 * [On Functional Programming:](https://medium.com/@jlouis666/on-functional-programming-df28cc9078de#.i6osvk1ux) - 
