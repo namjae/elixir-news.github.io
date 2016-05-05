@@ -35,7 +35,7 @@ defmodule News.Github.News do
       old_items = String.slice(old_items, 9..-1)
       @header <> week <> "\n\n" <> new_news <> old_items
     else
-      @header <> week <> "\n\n" <> new_news <> "## "<> old_items
+      @header <> week <> "\n\n" <> new_news <> "\n## "<> old_items
     end
   end
 
