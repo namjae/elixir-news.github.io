@@ -4,6 +4,11 @@ title:  "Awesome Elixir"
 date:   2016-04-09 00:00:11
 
 ---
+## 2016-19
+
+* [Phoenix Tips and Tricks](https://dockyard.com/blog/2016/05/02/phoenix-tips-and-tricks) - 
+keep your code clean and to the point, and isolated when required (2016-05-09)
+
 ## 2016-18
 
 * [Distributed Erlang](http://emauton.org/disterl/) - A short guide to the structure and internals of the Erlang/OTP distributed messaging facility. (2016-05-07)
