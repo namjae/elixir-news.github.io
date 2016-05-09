@@ -9,7 +9,7 @@ defmodule News.Github.News do
   @news_file "_posts/2016-04-09-news.markdown"
 
   def update do
-    issues = find_today_issues
+    issues = find_issues
 
     issues
     |> restructuring_issues
@@ -58,8 +58,8 @@ defmodule News.Github.News do
     end)
   end
 
-  def find_today_issues do
-    {:ok, time} = Timex.DateTime.local |> Timex.beginning_of_day |> Timex.format("{ISO}")
+  def find_issues do
+    {:ok, time} = Timex.DateTime.local |> Timex.shift( days: -2) |> Timex.format("{ISO}")
     filters = %{state: "open", since: time}
     Tentacat.Issues.filter(@owner, @repo, filters, @client)
   end
