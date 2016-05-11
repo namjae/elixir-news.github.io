@@ -6,6 +6,8 @@ date:   2016-04-09 00:00:11
 ---
 ## 2016-19
 
+* [Erlang gen_server Reloaded](https://www.erlang-solutions.com/blog/erlang-gen_server-reloaded.html) - 
+Manage our server's behaviour and metrics in one place. (2016-05-10)
 * [Phoenix Tips and Tricks](https://dockyard.com/blog/2016/05/02/phoenix-tips-and-tricks) - 
 keep your code clean and to the point, and isolated when required (2016-05-09)
 
