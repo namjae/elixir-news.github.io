@@ -4,6 +4,12 @@ title:  "Awesome Elixir"
 date:   2016-04-09 00:00:11
 
 ---
+## 2016-20
+
+* [Tracing and observing your remote node](http://blog.plataformatec.com.br/2016/05/tracing-and-observing-your-remote-node/
+
+) -  (2016-05-16)
+
 ## 2016-19
 
 * [Erlang gen_server Reloaded](https://www.erlang-solutions.com/blog/erlang-gen_server-reloaded.html) - 
