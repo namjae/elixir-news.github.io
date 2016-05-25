@@ -4,6 +4,11 @@ title:  "Awesome Elixir"
 date:   2016-04-09 00:00:11
 
 ---
+## 2016-21
+
+* [real world elixir deployment](http://www.slideshare.net/petegamache/real-world-elixir-deployment) - 
+ releases, rolling and hot upgrades, rollbacks, clustering, and fault tolerance. (2016-05-24)
+
 ## 2016-20
 
 * [Tracing and observing your remote node](http://blog.plataformatec.com.br/2016/05/tracing-and-observing-your-remote-node/) -  (2016-05-16)
