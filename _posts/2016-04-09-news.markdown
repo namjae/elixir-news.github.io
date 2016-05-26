@@ -6,6 +6,8 @@ date:   2016-04-09 00:00:11
 ---
 ## 2016-21
 
+* [The Road to 2 Million Websocket](http://erlangcentral.org/gary-rennie-the-road-to-2-million-websocket-connections-in-phoenix-elixirconfeu-2016/#.V0Zh4pN969t) - 
+Learn how to benchmark WebSockets using Tsung Explore how to find and fix bottlenecks. (2016-05-26)
 * [real world elixir deployment](http://www.slideshare.net/petegamache/real-world-elixir-deployment) - 
  releases, rolling and hot upgrades, rollbacks, clustering, and fault tolerance. (2016-05-24)
 
