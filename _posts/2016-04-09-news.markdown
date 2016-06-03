@@ -6,6 +6,8 @@ date:   2016-04-09 00:00:11
 ---
 ## 2016-22
 
+* [Testing HTTP APIs in Elixir](https://pspdfkit.com/blog/2016/testing-http-apis-in-elixir/) - 
+ a quick way to create a custom plug that can be put in place instead of an actual HTTP server to return prebaked responses to client requests. (2016-06-03)
 * [Family Ties part 6: Being On Guard](http://daniel-azuma.com/blog/2016/05/31/family-ties-6-being-on-guard) - 
 Guard different between erlang and elixir (2016-06-01)
 
