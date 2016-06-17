@@ -4,6 +4,11 @@ title:  "Awesome Elixir"
 date:   2016-04-09 00:00:11
 
 ---
+## 2016-24
+
+* [Observing low latency in Phoenix with wrk](http://theerlangelist.com/article/phoenix_latency) - 
+The main purpose was to prove that we can get some nice latency numbers with a fairly small amount of effort. (2016-06-16)
+
 ## 2016-22
 
 * [Testing HTTP APIs in Elixir](https://pspdfkit.com/blog/2016/testing-http-apis-in-elixir/) - 
