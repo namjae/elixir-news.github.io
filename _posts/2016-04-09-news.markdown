@@ -4,6 +4,11 @@ title:  "Awesome Elixir"
 date:   2016-04-09 00:00:11
 
 ---
+## 2016-25
+
+* [Elixir v1.3 released - Elixir](http://elixir-lang.org/blog/2016/06/21/elixir-v1-3-0-released/) - 
+The compiler and its tooling, specially Mix (Elixir’s build tool) and ExUnit (Elixir’s test framework). The most notable additions are the new Calendar types, the new cross-reference checker in Mix. (2016-06-22)
+
 ## 2016-24
 
 * [Observing low latency in Phoenix with wrk](http://theerlangelist.com/article/phoenix_latency) - 
