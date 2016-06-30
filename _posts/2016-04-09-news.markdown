@@ -4,6 +4,13 @@ title:  "Awesome Elixir"
 date:   2016-04-09 00:00:11
 
 ---
+## 2016-26
+
+* [Thoughts on rebar3](http://inaka.net/blog/2016/06/08/thoughts-on-rebar3/) - 
+moving a project from erlang.mk to rebar3 (2016-06-29)
+* [Tail Call Optimization in Elixir & Erlang – not as efficient and important as you probably think](https://pragtob.wordpress.com/2016/06/16/tail-call-optimization-in-elixir-erlang-not-as-efficient-and-important-as-you-probably-think/) - 
+body-recursive functions can be faster and more memory efficient than their especially optimized tail-recursive counter parts? (2016-06-29)
+
 ## 2016-25
 
 * [Elixir v1.3 released - Elixir](http://elixir-lang.org/blog/2016/06/21/elixir-v1-3-0-released/) - 
