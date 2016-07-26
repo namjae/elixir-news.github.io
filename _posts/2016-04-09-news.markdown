@@ -4,6 +4,11 @@ title:  "Awesome Elixir"
 date:   2016-04-09 00:00:11
 
 ---
+## 2016-30
+
+* [Distillery vs. Exrm vs. Relx](http://bitwalker.org/posts/2016-07-21-distillery-vs-exrm-vs-relx/) - 
+Distillery is effectively a rewrite of release handling for Elixir. It is intended to be a replacement of Exrm (2016-07-26)
+
 ## 2016-26
 
 * [Thoughts on rebar3](http://inaka.net/blog/2016/06/08/thoughts-on-rebar3/) - 
